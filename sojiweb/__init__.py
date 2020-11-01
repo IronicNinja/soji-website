@@ -5,7 +5,7 @@ from flask_mail import Mail
 import os
 
 app = Flask(__name__)
-dev = True
+dev = False
 
 if dev:
     app.config.from_pyfile('local_config.py')
